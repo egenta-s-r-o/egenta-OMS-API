@@ -49,89 +49,77 @@
 
 ### Example Data:
 
-##### {
-
-"secret_id": 1,
-"secret_key": 1,
-"orders": [
+```
 {
-"OrderId": "SCID01210525142759UT8E",
-"Status": "testCdiscount_04e",
-"Reference": "custm_001",
-
-"StoreId": "custm_001",
-"StoreName": "custm_001",
-
-"PurchaseDate": "yyyy-mm-dd HH:nn:ss",
-"LastUpdateDate": "yyyy-mm-dd HH:nn:ss",
-"EarliestShipDate": "yyyy-mm-dd HH:nn:ss",
-"LatestShipDate": "yyyy-mm-dd HH:nn:ss",
-"EarliestDeliveryDate": "2025- 04 - 22 10:26:05",
-"LatestDeliveryDate": "2025- 04 - 22 10:26:05",
-
-"SalesChannelId": "custm_001",
-"SalesChannel": "custm_001",
-"BusinessOrder": "1",
-"BuyerName": "1",
-"BuyerEmail": "1",
-"OrderTotal": "100.00",
-"CurrencyCode": "EUR",
-"NumberOfItemsUnshipped": " 1 ",
-"requested_shipping_carrier": "DHL",
-
-"shippingAddress": {
-"firstName": "Jane",
-"lastName": "Doe",
-"companyName": "Company Inc.",
-"addressLine1": "12 avenue de paris",
-"addressLine2": "Bat C",
-"addressLine3": "4eme etage",
-"postalCode": "75001",
-"city": "Paris",
-
-
-"stateOrRegion": "Ile de france",
-"phone": "17373737373",
-"countryCode": "FR"
-},
-
-"billingAddress": {
-"firstName": "Jane",
-"lastName": "Doe",
-"companyName": "Company Inc.",
-"addressLine1": "12 avenue de paris",
-"addressLine2": "Bat C",
-"addressLine3": "4eme etage",
-"postalCode": "75001",
-"city": "Paris",
-"stateOrRegion": "Ile de france",
-"phone": "17373737373",
-"countryCode": "FR"
-},
-
-"lines": [
-{
-"productId": "ASIN",
-"sellerProductId": "SKU",
-"orderLineId": "line1",
-"productTitle": "Product Name",
-"quantity": 1,
-"sellingPrice": 122,
-"sellingPriceCurrencyCode": "EUR",
-"shippingCost": 12,
-"shippingCostCurrencyCode": "EUR",
-"commission_amountWithVat": 12,
-"commission_amountWithoutVat": 10
-
-},
-
-##### ]
-
-##### }
-
-##### ]
-
-### }
+  "secret_id": 1,
+  "secret_key": 1,
+  "orders": [
+    {
+      "OrderId": "SCID01210525142759UT8E",
+      "Status": "testCdiscount_04e",
+      "Reference": "custm_001",
+      "StoreId": "custm_001",
+      "StoreName": "custm_001",
+      "PurchaseDate": "yyyy-mm-dd HH:nn:ss",
+      "LastUpdateDate": "yyyy-mm-dd HH:nn:ss",
+      "EarliestShipDate": "yyyy-mm-dd HH:nn:ss",
+      "LatestShipDate": "yyyy-mm-dd HH:nn:ss",
+      "EarliestDeliveryDate": "2025-04-22 10:26:05",
+      "LatestDeliveryDate": "2025-04-22 10:26:05",
+      "SalesChannelId": "custm_001",
+      "SalesChannel": "custm_001",
+      "BusinessOrder": "1",
+      "BuyerName": "1",
+      "BuyerEmail": "1",
+      "OrderTotal": "100.00",
+      "CurrencyCode": "EUR",
+      "NumberOfItemsUnshipped": "1",
+      "requested_shipping_carrier": "DHL",
+      "shippingAddress": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "companyName": "Company Inc.",
+        "addressLine1": "12 avenue de paris",
+        "addressLine2": "Bat C",
+        "addressLine3": "4eme etage",
+        "postalCode": "75001",
+        "city": "Paris",
+        "stateOrRegion": "Ile de france",
+        "phone": "17373737373",
+        "countryCode": "FR"
+      },
+      "billingAddress": {
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "companyName": "Company Inc.",
+        "addressLine1": "12 avenue de paris",
+        "addressLine2": "Bat C",
+        "addressLine3": "4eme etage",
+        "postalCode": "75001",
+        "city": "Paris",
+        "stateOrRegion": "Ile de france",
+        "phone": "17373737373",
+        "countryCode": "FR"
+      },
+      "lines": [
+        {
+          "productId": "ASIN",
+          "sellerProductId": "SKU",
+          "orderLineId": "line1",
+          "productTitle": "Product Name",
+          "quantity": 1,
+          "sellingPrice": 122,
+          "sellingPriceCurrencyCode": "EUR",
+          "shippingCost": 12,
+          "shippingCostCurrencyCode": "EUR",
+          "commission_amountWithVat": 12,
+          "commission_amountWithoutVat": 10
+        }
+      ]
+    }
+  ]
+}
+```
 
 ### Fields description:
 
