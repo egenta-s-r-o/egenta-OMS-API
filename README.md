@@ -1,8 +1,8 @@
 # EGENTA OMS API
 
-# Version 0.
+# Version 0.1
 
-### Documentation Version 0.
+### Documentation Version 0.1
 
 ### 22 April 2025
 
